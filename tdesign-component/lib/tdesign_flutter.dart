@@ -6,6 +6,7 @@ export 'src/components/checkbox/td_check_box.dart';
 export 'src/components/checkbox/td_check_box_group.dart';
 export 'src/components/count_down/td_count_down.dart';
 export 'src/components/count_down/td_count_down_style.dart';
+export 'src/components/count_to/td_count_to.dart';
 export 'src/components/dialog/td_dialog.dart';
 export 'src/components/divider/td_divider.dart';
 export 'src/components/dropdown_menu/td_dropdown_item.dart';
