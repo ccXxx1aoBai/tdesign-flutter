@@ -13,6 +13,7 @@ import 'page/td_bottom_tab_bar_page.dart';
 import 'page/td_button_page.dart';
 import 'page/td_checkbox_page.dart';
 import 'page/td_count_down_page.dart';
+import 'page/td_count_to_page.dart';
 import 'page/td_date_picker_page.dart';
 import 'page/td_dialog_page.dart';
 import 'page/td_divider_page.dart';
@@ -154,6 +155,10 @@ Map<String, List<ExamplePageModel>> exampleMap = {
         text: 'CountDown 倒计时',
         name: 'count-down',
         pageBuilder: _wrapInheritedTheme((context) => const TDCountDownPage())),
+  ExamplePageModel(
+        text: 'CountTo 计数',
+        name: 'count-to',
+        pageBuilder: _wrapInheritedTheme((context) => const TDCountToPage())),
     ExamplePageModel(
         text: 'Collapse 折叠面板',
         name: 'collapse',

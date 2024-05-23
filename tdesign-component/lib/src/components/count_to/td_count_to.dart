@@ -49,7 +49,7 @@ class _TDCountToState extends State<TDCountTo> with SingleTickerProviderStateMix
     return AnimatedBuilder(
       animation: _animation,
       builder: (BuildContext context, Widget? child) {
-        return Text('$_animation}');
+        return Text('${_animation.value}', style: const TextStyle(fontSize: 18),);
       },
     );
   }
